@@ -51,9 +51,10 @@ on how to set up the theme for each app. Besides that, the gist is as follows:
 	A: theme.park has a [very comprehensive documentation
   site](https://docs.theme-park.dev/).
 - Q: **_"Latte looks bad! What happened?"_**\
-  A: Unfortunately, some of the applications that theme.park supports do not
-  support a light theme. There is not a lot to be fixed here, so it is
-  recommended to get the application's specific theme instead.
+  A: Unfortunately, theme.park itself does not natively support light themes
+  and lacks a proper way of implementing them, thus causing Latte to look quite
+  bad on most, if not all, applications. There isn't a lot to be fixed here (if
+  anything at all), so using a more specific theme is recommended.
 
 ## 💝 Thanks to
 
