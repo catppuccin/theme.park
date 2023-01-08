@@ -19,8 +19,8 @@
 
   --accent-color: 137, 180, 250; /* Blue */
   --accent-color-hover: rgb(var(--accent-color), 0.8);
-  --link-color: #1e66f5; /* Blue */
-  --link-color-hover: #209fb5; /* Sapphire */
+  --link-color: var(--text);
+  --link-color-hover: #1e66f5; /* Blue */
 
   /* Specials */
   --arr-queue-color: #40a02b; /* Servarr apps + Bazarr */ /* Green */
