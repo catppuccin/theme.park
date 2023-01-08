@@ -1,0 +1,35 @@
+:root {
+  --text: #cad3f5; /* Text */
+  --text-muted: #a5adcb; /* Subtext0 */
+  --text-hover: var(--text);
+  --label-text-color: #fff; /* have to break convention here */
+
+  --main-bg-color: #24273a; /* Base */
+
+  --modal-bg-color: #1e2030; /* Mantle */
+  --modal-header-color: #181926; /* Crust */
+  --modal-footer-color: #181926; /* Crust */
+
+  --drop-down-menu-bg: #6e738d; /* Overlay0 */
+
+  --button-color: #363a4f; /* Surface0 */
+  --button-color-hover: #494d64; /* Surface1 */
+  --button-text: var(--text);
+  --button-text-hover: var(--text-hover);
+
+  --accent-color: 137, 180, 250; /* Blue */
+  --accent-color-hover: rgb(var(--accent-color), 0.8);
+  --link-color: #8aadf4; /* Blue */
+  --link-color-hover: #7dc4e4; /* Sapphire */
+
+  /* Specials */
+  --arr-queue-color: #a6da95; /* Servarr apps + Bazarr */ /* Green */
+  --plex-poster-unwatched: #f5a97f; /* Peach */
+  --petio-spinner: invert(66%) sepia(15%) saturate(1451%) hue-rotate(185deg)
+    brightness(105%) contrast(96%); /* Made with https://codepen.io/jsm91/embed/ZEEawyZ */ /* Blue */
+  --gitea-color-primary-dark-4: var(--accent-color);
+  --overseerr-gradient: linear-gradient(
+    var(--main-bg-color),
+    var(--main-bg-color)
+  ); /* Make sure this is compatible with whatever takes in the gradient */
+}

@@ -1,7 +1,7 @@
 <h3 align="center">
 	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/logos/exports/1544x1544_circle.png" width="100" alt="Logo"/><br/>
 	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/misc/transparent.png" height="30" width="0px"/>
-	Catppuccin for <a href="https://github.com/catppuccin/template">App</a>
+	Catppuccin for <a href="https://theme-park.dev/">theme.park</a>
 	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/misc/transparent.png" height="30" width="0px"/>
 </h3>
 
@@ -12,43 +12,52 @@
 </p>
 
 <p align="center">
-	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/previews/preview.webp"/>
+	<img src="assets/preview.webp"/>
 </p>
 
 ## Previews
 
 <details>
 <summary>🌻 Latte</summary>
-<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/previews/latte.webp"/>
+<img src="assets/latte.webp"/>
 </details>
 <details>
 <summary>🪴 Frappé</summary>
-<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/previews/frappe.webp"/>
+<img src="assets/frappe.webp"/>
 </details>
 <details>
 <summary>🌺 Macchiato</summary>
-<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/previews/macchiato.webp"/>
+<img src="assets/macchiato.webp"/>
 </details>
 <details>
 <summary>🌿 Mocha</summary>
-<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/previews/mocha.webp"/>
+<img src="assets/mocha.webp"/>
 </details>
 
 ## Usage
 
-1. Clone this repository locally
-2. Open the app's settings
-3. Select `import theme` and browse to where you cloned Catppuccin
-4. Select it
+Installing these themes depends on what application you want to apply them to.
+We recommend reading [their documentation](https://docs.theme-park.dev/setup)
+on how to set up the theme for each app. Besides that, the gist is as follows:
 
-## 🙋 FAQ (optional)
+1. Install the **base** theme for the application. On theme.park, the URL would
+   be `https://theme-park.dev/css/base/<application>/<application>-base.css`,
+   but it depends on your installation method.
+2. Install the flavor you prefer, making sure it is loaded after the base.
 
--	Q: **_"Where can I find the doc?"_**\
-	A: Run `:help theme`
+## 🙋 FAQ
+
+-	Q: **_"Where can I find the docs?"_**\
+	A: theme.park has a [very comprehensive documentation
+  site](https://docs.theme-park.dev/).
+- Q: **_"Latte looks bad! What happened?"_**\
+  A: Unfortunately, some of the applications that theme.park supports do not
+  support a light theme. There is not a lot to be fixed here, so it is
+  recommended to get the application's specific theme instead.
 
 ## 💝 Thanks to
 
-- [Human](https://github.com/catppuccin)
+- [lewisakura](https://github.com/lewisakura)
 
 &nbsp;
 
