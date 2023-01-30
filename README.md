@@ -43,7 +43,8 @@ on how to set up the theme for each app. Besides that, the gist is as follows:
 1. Install the **base** theme for the application. On theme.park, the URL would
    be `https://theme-park.dev/css/base/<application>/<application>-base.css`,
    but it depends on your installation method.
-2. Install the flavor you prefer, making sure it is loaded after the base.
+2. Install the flavor you prefer, making sure it is loaded after the base. We
+   serve them from `https://themepark.catppuccin.com/<flavor>.css`.
 
 ## 🙋 FAQ
 
