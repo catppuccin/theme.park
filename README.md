@@ -36,21 +36,13 @@
 
 ## Usage
 
-Installing these themes depends on what application you want to apply them to.
-We recommend reading [their documentation](https://docs.theme-park.dev/setup)
-on how to set up the theme for each app. Besides that, the gist is as follows:
-
-1. Install the **base** theme for the application. On theme.park, the URL would
-   be `https://theme-park.dev/css/base/<application>/<application>-base.css`,
-   but it depends on your installation method.
-2. Install the flavor you prefer, making sure it is loaded after the base. We
-   serve them from `https://themepark.catppuccin.com/<flavor>.css`.
+Catppuccin is now **included by default** as a [Community
+Theme](https://docs.theme-park.dev/community-themes/catppuccin/) on theme.park,
+please see the [official documentation](https://docs.theme-park.dev/setup/) for
+information on how to apply this theme.
 
 ## 🙋 FAQ
 
--	Q: **_"Where can I find the docs?"_**\
-	A: theme.park has a [very comprehensive documentation
-  site](https://docs.theme-park.dev/).
 - Q: **_"Latte looks bad! What happened?"_**\
   A: Unfortunately, theme.park itself does not natively support light themes
   and lacks a proper way of implementing them, thus causing Latte to look quite
