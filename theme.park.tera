@@ -1,30 +1,37 @@
+---
+whiskers:
+  version: "2.3.0"
+  matrix:
+    - flavor
+  filename: "themes/{{ flavor.identifier }}.css"
+---
 :root {
-  --main-bg-color: #{{base}};
+  --main-bg-color: #{{ base.hex }};
 
-  --modal-bg-color: #{{mantle}};
-  --modal-header-color: #{{crust}};
-  --modal-footer-color: #{{crust}};
+  --modal-bg-color: #{{ mantle.hex }};
+  --modal-header-color: #{{ crust.hex }};
+  --modal-footer-color: #{{ crust.hex }};
 
-  --drop-down-menu-bg: #{{surface0}};
+  --drop-down-menu-bg: #{{ surface0.hex }};
 
-  --button-color: #{{surface0}};
-  --button-color-hover: #{{surface1}};
+  --button-color: #{{ surface0.hex }};
+  --button-color-hover: #{{ surface1.hex }};
   --button-text: var(--text);
   --button-text-hover: var(--text-hover);
 
   --accent-color: 137, 180, 250; /* Mocha Blue */
   --accent-color-hover: rgb(var(--accent-color), 0.8);
   --link-color: var(--text);
-  --link-color-hover: #{{blue}};
+  --link-color-hover: #{{ blue.hex }};
   --label-text-color: #fff; /* have to break convention here */
 
-  --text: #{{text}};
+  --text: #{{ text.hex }};
   --text-hover: var(--text);
-  --text-muted: {{subtext0}};
+  --text-muted: {{ subtext0.hex }};
 
   /* Specials */
-  --arr-queue-color: #{{green}}; /* Servarr apps + Bazarr */
-  --plex-poster-unwatched: #{{peach}};
+  --arr-queue-color: #{{ green.hex }}; /* Servarr apps + Bazarr */
+  --plex-poster-unwatched: #{{ peach.hex }};
   --petio-spinner: invert(66%) sepia(15%) saturate(1451%) hue-rotate(185deg) brightness(105%) contrast(96%); /* Made with https://codepen.io/jsm91/embed/ZEEawyZ */ /* Blue */
   --gitea-color-primary-dark-4: var(--accent-color);
   --overseerr-gradient: linear-gradient(
