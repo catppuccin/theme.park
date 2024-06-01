@@ -5,6 +5,11 @@ whiskers:
     - flavor
   filename: "themes/{{ flavor.identifier }}.css"
 ---
+
+{%- macro rgb(color) -%}
+{{ color.rgb.r }}, {{ color.rgb.g }}, {{ color.rgb.b }}
+{%- endmacro -%}
+
 :root {
   --main-bg-color: #{{ base.hex }};
 
@@ -19,7 +24,7 @@ whiskers:
   --button-text: var(--text);
   --button-text-hover: var(--text-hover);
 
-  --accent-color: 137, 180, 250; /* Mocha Blue */
+  --accent-color: {{ self::rgb(color=blue) }};
   --accent-color-hover: rgb(var(--accent-color), 0.8);
   --link-color: var(--text);
   --link-color-hover: #{{ blue.hex }};
