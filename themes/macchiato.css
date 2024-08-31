@@ -12,7 +12,7 @@
   --button-text: var(--text);
   --button-text-hover: var(--text-hover);
 
-  --accent-color: 137, 180, 250; /* Mocha Blue */
+  --accent-color: 138, 173, 244;
   --accent-color-hover: rgb(var(--accent-color), 0.8);
   --link-color: var(--text);
   --link-color-hover: #8aadf4;
